@@ -9,11 +9,11 @@ public class Student extends Person{
         return gpa;
     }
 
-    public Student(){};
+    public Student(){}
     public Student(String name, String surname, double gpa){
         super(name, surname);
         setGpa(gpa);
-    };
+    }
 
     @Override
     public double getPaymentAmount() {
@@ -23,6 +23,6 @@ public class Student extends Person{
 
     @Override
     public String toString() {
-        return "Student: " + super.toString() + " earns " + getPaymentAmount();
+        return "Student: " + super.toString() + " earns " + getPaymentAmount() + " tenge";
     }
 }

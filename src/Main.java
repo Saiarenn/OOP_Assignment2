@@ -8,9 +8,9 @@ public class Main {
         people.add(new Student("Paul", "McCartney", 2.58));
         people.add(new Student("Saken", "Oralkhan", 3.94));
         people.add(new Employee("George", "Harrison", "Musician", 999999));
-        people.add(new Employee("Zhandos", "Demesinuly", "Minister of Energy", 999999));
+        people.add(new Employee("Zhandos", "Demesinuly", "Minister of Energy", 1000000));
         people.add(new Student("Arman"  ,"Zhumabek" , 2.67));
-        System.out.println('K');
+
         Collections.sort(people);
         printData(people);
     }
